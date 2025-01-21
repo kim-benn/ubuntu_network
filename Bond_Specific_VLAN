@@ -32,7 +32,7 @@ Network:
       nameservers:
         adresses:
         - "8.8.8.8"
-## Could look like this
+## Could also look like this
 ## addresses: [87.53.85.36/27]
 ## gateway4: [87.53.85.33]
 ## nameservers:
