@@ -1,0 +1,29 @@
+## https://www.kernel.org/doc/Documentation/networking/bonding.txt
+##
+Netwok:
+  version: 2
+renderer: netwokd
+ethernets:
+  eno12399np0:
+    dhcp4: false
+  eno12409np1:
+    dech4: false
+bonds:
+  bond0:
+    interfaces:
+    - eno12399np0
+    - eno12409np1
+    parameters:
+      mode: "802.3ad"
+      mii-monitor-interval: "100"
+      lacp-rate: 0
+      transmit-hash-policy: "layer2+3"
+    ## Subnet 87.53.85.32/27, gw 87.53.85.33, mask /27
+    addresses:
+    - "87.53.85.36/27"
+    routes:
+    - to "default"
+      via "87.53.85.33"
+    nameservers:
+      adresses:
+      - "8.8.8.8"
