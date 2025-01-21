@@ -19,9 +19,9 @@ Network:
         lacp-rate: 0
         transmit-hash-policy: "layer2+3"
   vlans:
-    bond0.666:
+    bond0.231:
       dhcp4: false
-      id: 666
+      id: 231
       link: bond0
       ## Subnet 87.53.85.32/27, gw 87.53.85.33, mask /27
       addresses:

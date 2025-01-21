@@ -20,9 +20,9 @@ Network:
         lacp-rate: 0
         transmit-hash-policy: "layer2+3"
   vlans:
-    bond0.666:
+    bond0.231:
       dhcp4: no
-      id: "666"
+      id: "231"
       link: bond0
       addresses: [87.53.85.36/27]
       gateway4: [87.53.85.33]
