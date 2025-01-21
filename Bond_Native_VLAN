@@ -24,3 +24,6 @@ bonds:
     routes:
     - to "default"
       via "87.53.85.33"
+    nameservers:
+      adresses:
+      - "8.8.8.8"
