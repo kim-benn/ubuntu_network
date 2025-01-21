@@ -19,7 +19,7 @@ Network:
         lacp-rate: 0
         transmit-hash-policy: "layer2+3"
   vlans:
-    bond0.666
+    bond0.666:
       dhcp4: false
       id: 666
       link: bond0
@@ -34,8 +34,8 @@ Network:
         - "8.8.8.8"
 # Could also look like this
 # vlans:
-#  bond0.666
-#    dhcp4: false
+#  bond0.666:
+#    dhcp4: no
 #    id: 666
 #    link: bond0
 #    addresses: [87.53.85.36/27]
