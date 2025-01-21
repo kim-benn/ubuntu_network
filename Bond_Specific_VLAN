@@ -33,7 +33,12 @@ Network:
         adresses:
         - "8.8.8.8"
 # Could also look like this
-# addresses: [87.53.85.36/27]
-# gateway4: [87.53.85.33]
-# nameservers:
-#   adresses: [8.8.8.8, 1.1.1.1]
+# vlans:
+#  bond0.666
+#    dhcp4: false
+#    id: 666
+#    link: bond0
+#    addresses: [87.53.85.36/27]
+#    gateway4: [87.53.85.33]
+#    nameservers:
+#      adresses: [8.8.8.8, 1.1.1.1]
