@@ -1,6 +1,6 @@
 ## https://www.kernel.org/doc/Documentation/networking/bonding.txt
 ##
-Netwok:
+Network:
   version: 2
 renderer: netwokd
 ethernets:
