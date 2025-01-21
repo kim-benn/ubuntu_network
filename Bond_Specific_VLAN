@@ -1,5 +1,5 @@
-## https://www.kernel.org/doc/Documentation/networking/bonding.txt
-##
+# https://www.kernel.org/doc/Documentation/networking/bonding.txt
+#
 Network:
   version: 2
   renderer: networkd
@@ -32,8 +32,8 @@ Network:
       nameservers:
         adresses:
         - "8.8.8.8"
-## Could also look like this
-## addresses: [87.53.85.36/27]
-## gateway4: [87.53.85.33]
-## nameservers:
-##   adresses: [8.8.8.8, 1.1.1.1]
+# Could also look like this
+# addresses: [87.53.85.36/27]
+# gateway4: [87.53.85.33]
+# nameservers:
+#   adresses: [8.8.8.8, 1.1.1.1]
