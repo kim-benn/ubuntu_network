@@ -1,0 +1,23 @@
+network:
+    version: 2
+    ethernets:
+        eno12399np0: {}
+        eno12409np1: {}
+    bonds:
+        bond0:
+            addresses:
+            - 87.53.85.60/27
+            interfaces:
+            - eno12399np0
+            - eno12409np1
+            nameservers:
+                addresses:
+                - 8.8.8.8
+                search: []
+            parameters:
+                lacp-rate: slow
+                mode: 802.3ad
+                transmit-hash-policy: layer3+4
+            routes:
+            -   to: default
+                via: 87.53.85.33
